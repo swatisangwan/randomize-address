@@ -1,0 +1,74 @@
+swagger: "2.0"
+info:
+  description: "This is a Random Address Generator API."
+  version: "1.0.0"
+  title: "Swagger Random Address"
+  contact:
+    email: "sangwan.swati@swagger.io"
+host: "localhost:8080"
+basePath: "/randomizer"
+tags:
+- name: "address"
+  description: "Generate random address"
+schemes:
+- "http"
+paths:
+  /address:
+    get:
+      tags:
+      - "address"
+      summary: "Generate Random address by country"
+      produces:
+      - "application/json"
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/Address"
+        "500":
+          description: "Internal server error"
+          schema:
+            $ref: "#/definitions/Error"
+         
+
+definitions:
+  Address:
+    type: "object"
+    required:
+      - house
+      - street
+      - postalCode
+      - city
+      - county
+      - countryCode
+    properties:
+      house:
+        type: "string"
+      street:
+        type: "string"
+      postalCode:
+        type: "string"
+      city:
+       type: "string"
+      county:
+        type: "string"
+      state:
+        type: "string"
+      stateCode:
+        type: "string"
+      country:
+        type: "string"
+      countryCode:
+        type: "string"
+        pattern: "^[A-Z]{3}$"
+  Error:
+    type: "object"
+    properties:
+      statusCode: 
+        type: "integer"
+      userMessage:
+        type: "string"
+      errorDetail:
+        type: "string"
+      
+        

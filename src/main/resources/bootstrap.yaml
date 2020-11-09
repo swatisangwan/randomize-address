@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: randomize-address
+  profiles:
+    include:
+      - address-data

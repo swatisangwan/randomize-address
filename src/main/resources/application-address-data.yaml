@@ -1,0 +1,157 @@
+#  532 Union St., Apt 72, San Diego, NY, 789302
+address:
+  house:
+    - House 101
+    - House 102
+    - House 103
+    - House 104
+    - House 105
+    - House 106
+    - House 107
+    - House 108
+    - House 109
+    - House 110
+    - House 201
+    - House 202
+    - House 203
+    - House 204
+    - House 205
+    - House 206
+    - House 207
+    - House 208
+    - House 209
+    - House 210
+    - Apt A101
+    - Apt A102
+    - Apt A103
+    - Apt A104
+    - Apt A105
+    - Apt A106
+    - Apt A107
+    - Apt A108
+    - Apt A109
+    - Apt A110
+    - Apt B201
+    - Apt B202
+    - Apt B203
+    - Apt B204
+    - Apt B205
+    - Apt B206
+    - Apt B207
+    - Apt B208
+    - Apt B209
+    - Apt B210
+  street:
+    - Park, 78
+    - Laurel, 71
+    - Maple, 69
+    - Lake, 63
+    - Sunset, 63
+    - Meadow, 62
+    - West, 58
+    - Hillside, 55
+    - Evergreen, 54
+    - Ridge, 54
+    - 2nd Second, 434
+    - 6th Sixth, 426
+    - 4th Fourth, 416
+    - 5th Fifth, 414
+    - 1st First, 413
+    - 3rd Third, 396
+    - 7th Seventh, 394
+    - 8th Eighth, 388
+    - 10th Tenth, 366
+    - 9th Ninth, 365
+  city:
+    - New York
+    - Los Angeles
+    - Chicago
+    - Houston
+    - Phoenix
+    - Philadelphia
+    - San Antonio
+    - San Diego
+    - Dallas
+    - San Jose
+    - Austin
+    - Jacksonville
+    - San Francisco
+    - Columbus
+    - Fort Worth
+    - Indianapolis
+    - Charlotte
+    - Seattle
+    - Denver
+    - Washington, D.C.
+    - Boston
+  county:
+    - Washington County
+    - Jefferson County
+    - Franklin County
+    - Jackson County
+    - Lincoln County
+    - Madison County
+    - Clay County
+    - Montgomery County
+    - Union County
+    - Marion County
+  state:
+    AL: Alabama
+    AK: Alaska
+    AZ: Arizona
+    AR: Arkansas
+    CA: California
+    CO: Colorado
+    CT: Connecticut
+    DE: Delaware
+    FL: Florida
+    GA: Georgia
+    GU: Guam
+    HI: Hawaii
+    ID: Idaho
+    IL: Illinois
+    IN: Indiana
+    IA: Iowa
+    KS: Kansas
+    KY: Kentucky
+    LA: Louisiana
+    ME: Maine
+    MD: Maryland
+    MA: Massachusetts
+    MI: Michigan
+    MN: Minnesota
+    MS: Mississippi
+    MO: Missouri
+    MT: Montana
+    NE: Nebraska
+    NV: Nevada
+    NH: New Hampshire
+    NJ: New Jersey
+    NM: New Mexico
+    NY: New York
+    NC: North Carolina
+    ND: North Dakota
+    OH: Ohio
+    OK: Oklahoma
+    OR: Oregon
+    PW: Palau
+    PA: Pennsylvania
+    PR: Puerto Rico
+    RI: Rhode Island
+    SC: South Carolina
+    SD: South Dakota
+    TN: Tennessee
+    TX: Texas
+    UT: Utah
+    VT: Vermont
+    VI: Virgin Islands
+    VA: Virginia
+    WA: Washington
+    WV: West Virginia
+    WI: Wisconsin
+    WY: Wyoming
+  country:
+    USA: United States of America
+    CAN: Canada
+    MEX: Mexico
+    NLD: Netherlands
